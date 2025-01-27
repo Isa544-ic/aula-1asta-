@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - zaza</title>
+
+<script> 
+    function newContent() {
+        nome = prompt("digite o seu nome");
+        confirm("seu nome é: " + nome);
+        document.open();
+        document.write("<h1>exercicios 1<h1><br>");
+        document.write("seu nome é " + nome);
+        
+        document.close();
+    }
+</script>
+</head>
+
+<body onload="newContent();">
+    <p>Algum conteudo do documento origianl</p>
+</body>
+</html>
